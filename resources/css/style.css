@@ -8,6 +8,7 @@ body{
 }
 a{
   color: inherit;
+  text-decoration: none;
 }
 header{
   display: flex;
@@ -17,6 +18,8 @@ header{
   background-color: black;
   width: 100%;
   z-index: 1;
+  top: 0;
+  left: 0;
 }
 .logo{
   display: flex;
@@ -30,14 +33,13 @@ header{
 nav{
   display: flex;
   align-items: center;
-  padding-right: 10px;
+  padding-right: 20px;
 }
 nav span{
   display: inline-block;
-  text-decoration: underline;
   align-items: center;
   justify-content: center;
-  padding: 20px 10px;
+  padding: 5px 10px;
 }
 nav span a:hover{
   background-color: seashell;
@@ -51,31 +53,31 @@ div{
 .main{
   display: flex;
   width: auto;
+  flex-direction: column;
+  padding: 0px 30px;
 }
 /*MISSION SECITION */
 #mission{
   height: 700px;
+  width: auto;
   padding-top: 70px;
   background-image: url("../images/img-mission-background.jpg");
 }
 #mission .content{
-  display: block;
   background-color: black;
-  width: 100%;
+  width: 1200px;
   margin: auto;
-  justify-content: center;
-  align-items: center;
 }
 .flex-container{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
 }
 /*FEATURED TEAS SECTION */
 #featured{
+  display: block
   width: 1000px;
-  padding-top: 69px;
+  padding-top: 40px;
   height: 700px;
 }
 #featured .content{
@@ -94,9 +96,36 @@ div{
   border-radius: 5px;
 
 }
-.item span{
+span{
   display: block;
+}
+.item span{
   padding: 10px;
+}
+/*LOCATION SECTION */
+#location{
+  height: 500px;
+  width: auto;
+  background-image: url("../images/img-locations-background.jpg");
+  padding-top: 70px;
+}
+#location .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.address{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 300px;
+  height: auto;
+  opacity: 1;
+  background-color: black;
+  margin: 15px 20px;
+}
+.address span{
+  padding: 15px 0;
 }
 h2,
 h3,
