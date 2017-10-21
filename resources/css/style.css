@@ -4,6 +4,7 @@ body{
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 }
 a{
   color: inherit;
@@ -15,6 +16,7 @@ header{
   border-bottom: 1px solid seashell;
   background-color: black;
   width: 100%;
+  padding-top: 20px;
 }
 .logo{
   display: flex;
@@ -41,4 +43,36 @@ nav span a:hover{
   background-color: seashell;
   color: black;
   border-radius: 5px;
+}
+
+div{
+  display: block;
+}
+.main{
+  display: flex;
+  width: auto;
+}
+#mission{
+  height: 700px;
+  padding-top: 69px;
+  background-image: url("../images/img-mission-background.jpg");
+}
+#mission .content{
+  display: block;
+  background-color: black;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1200px;
+}
+h2,
+h3,
+h4{
+  padding: -10px
 }
