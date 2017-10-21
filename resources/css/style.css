@@ -1,0 +1,44 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+a{
+  color: inherit;
+}
+header{
+  display: flex;
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  width: 100%;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.logo img{
+  height: 50px;
+  padding-left: 10px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+nav span{
+  display: inline-block;
+  text-decoration: underline;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
+}
+nav span a:hover{
+  background-color: seashell;
+  color: black;
+  border-radius: 5px;
+}
